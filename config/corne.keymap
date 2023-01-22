@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-   &bt BT_CLR    &kp ESC    &kp TAB        &kp LC(R)         &kp LC(F1)      &kp LC(N)   &kp CARET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD       &kp BSPC
- &bt BT_SEL 0  &kp LC(T)  &kp LC(W)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(LS(T))    &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp ASTRK      &kp EQUAL
- &bt BT_SEL 1  &kp LC(A)  &kp LC(C)        &kp LC(X)          &kp LC(V)      &kp LC(Z)   &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp SLASH  &kp AMPERSAND
-                                           &kp EQUAL      &kp BACKSPACE         &trans  &kp DOLLAR  &kp NUMBER_0   &kp PERCENT
+ &bt BT_CLR    &kp ESC    &kp TAB        &kp LC(R)         &kp LC(F1)      &kp LC(N)   &kp CARET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD       &kp BSPC
+ &bt BT_PRV  &kp LC(T)  &kp LC(W)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(LS(T))    &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp ASTRK      &kp EQUAL
+ &bt BT_NXT  &kp LC(A)  &kp LC(C)        &kp LC(X)          &kp LC(V)      &kp LC(Z)   &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp SLASH  &kp AMPERSAND
+                                         &kp EQUAL      &kp BACKSPACE         &trans  &kp DOLLAR  &kp NUMBER_0   &kp PERCENT
             >;
         };
 
