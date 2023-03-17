@@ -12,7 +12,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        Lower_Case {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -27,7 +27,7 @@
             >;
         };
 
-        lower_layer {
+        Commands_Numbers {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -42,7 +42,7 @@
             >;
         };
 
-        Layer__2 {
+        Symbols_Directions {
             bindings = <
 &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp BACKSLASH         &kp SLASH   &kp PIPE  &kp C_VOL_UP    &kp C_PREVIOUS    &kp UP_ARROW         &kp C_NEXT  &kp C_PLAY_PAUSE  &none
 &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp QUESTION   &kp EXCLAMATION   &kp HASH  &kp C_VOL_DN    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW   &kp RIGHT_SHIFT  &none
@@ -51,7 +51,7 @@
             >;
         };
 
-        Layer__3 {
+        Upper_Case {
             bindings = <
 &to 4  &kp LS(J)  &kp LS(U)          &kp LS(O)  &kp LS(F)  &kp LS(X)          &kp LS(P)      &kp LS(C)      &kp LS(L)  &kp LS(M)  &kp LS(V)  &none
 &to 4  &kp LS(I)  &kp LS(E)          &kp LS(A)  &kp LS(N)  &kp COLON          &kp LS(Y)      &kp LS(D)      &kp LS(R)  &kp LS(T)  &kp LS(S)  &none
@@ -60,12 +60,12 @@
             >;
         };
 
-        Layer__4 {
+        Gaming {
             bindings = <
-&to 0  &kp T  &kp Q      &kp W      &kp E  &kp R  &none  &none  &none  &none  &none  &none
-&none  &kp G  &kp A      &kp S      &kp D  &kp F  &none  &none  &none  &none  &none  &none
-&none  &kp B  &kp Z      &kp X      &kp C  &kp V  &none  &none  &none  &none  &none  &none
-                     &kp LCTRL  &kp SPACE  &none  &none  &none  &none
+&kp ESC  &kp T  &kp Q      &kp W      &kp E  &kp R  &none  &none  &none  &none  &none  &none
+  &to 0  &kp G  &kp A      &kp S      &kp D  &kp F  &none  &none  &none  &none  &none  &none
+&kp TAB  &kp B  &kp Z      &kp X      &kp C  &kp V  &none  &none  &none  &none  &none  &none
+                       &kp LCTRL  &kp SPACE  &none  &none  &none  &none
             >;
         };
     };
