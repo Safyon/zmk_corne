@@ -53,9 +53,9 @@
 
         Upper_Case {
             bindings = <
-&to 4  &kp LS(J)  &kp LS(U)          &kp LS(O)  &kp LS(F)  &kp LS(X)          &kp LS(P)      &kp LS(C)      &kp LS(L)  &kp LS(M)  &kp LS(V)  &none
+&to 5  &kp LS(J)  &kp LS(U)          &kp LS(O)  &kp LS(F)  &kp LS(X)          &kp LS(P)      &kp LS(C)      &kp LS(L)  &kp LS(M)  &kp LS(V)  &none
 &to 4  &kp LS(I)  &kp LS(E)          &kp LS(A)  &kp LS(N)  &kp COLON          &kp LS(Y)      &kp LS(D)      &kp LS(R)  &kp LS(T)  &kp LS(S)  &none
-&none   &kp SEMI  &kp MINUS  &kp DOUBLE_QUOTES  &kp LS(H)  &kp LS(B)          &kp LS(W)      &kp LS(G)      &kp LS(Q)  &kp LS(K)  &kp LS(Z)  &none
+&to 4   &kp SEMI  &kp MINUS  &kp DOUBLE_QUOTES  &kp LS(H)  &kp LS(B)          &kp LS(W)      &kp LS(G)      &kp LS(Q)  &kp LS(K)  &kp LS(Z)  &none
                                      &kp LCTRL      &none      &none  &kp LC(BACKSPACE)  &kp BACKSPACE  &kp LS(ENTER)
             >;
         };
@@ -66,6 +66,24 @@
 &kp TAB  &kp LEFT_SHIFT  &kp A  &kp S      &kp D  &kp F  &none  &none  &none  &none  &none          &none
   &to 0           &kp B  &kp Z  &kp X      &kp C  &kp V  &none  &none  &none  &none  &none          &none
                                 &kp O  &kp SPACE  &kp L  &none  &none  &none
+            >;
+        };
+
+        LA1 {
+            bindings = <
+     &kp ESC  &kp B  &kp V      &kp Z      &kp X  &kp T  &none     &none  &kp W      &none  &none  &kp LC(Z)
+     &kp TAB  &kp Q  &kp W      &kp E      &kp R  &kp G  &none  &kp LEFT  &none  &kp RIGHT  &kp Q  &kp LC(X)
+&kp LEFT_ALT  &kp A  &kp S      &kp D      &kp F  &none  &none     &none  &none      &none  &none  &kp LC(C)
+                            &kp LCTRL  &kp SPACE  &mo 6  &to 0     &to 0  &to 0
+            >;
+        };
+
+        LA2 {
+            bindings = <
+    &kp H  &kp LA(U)      &kp U  &kp COLON  &kp LA(W)      &kp L  &kp  &kp  &kp  &kp  &kp  &kp
+&kp LA(X)      &kp M  &kp LA(P)      &kp P      &kp I  &kp LA(Y)  &kp  &kp  &kp  &kp  &kp  &kp
+&kp LA(D)  &kp LA(J)      &kp J      &kp K  &kp LA(E)      &kp Y  &kp  &kp  &kp  &kp  &kp  &kp
+                                       &kp        &kp        &kp  &kp  &kp  &kp
             >;
         };
     };
