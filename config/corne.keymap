@@ -80,10 +80,10 @@
 
         LA2 {
             bindings = <
-    &kp H  &kp LA(U)      &kp U  &kp COLON  &kp LA(W)      &kp L  &kp  &kp  &kp  &kp  &kp  &kp
-&kp LA(X)      &kp M  &kp LA(P)      &kp P      &kp I  &kp LA(Y)  &kp  &kp  &kp  &kp  &kp  &kp
-&kp LA(D)  &kp LA(J)      &kp J      &kp K  &kp LA(E)      &kp Y  &kp  &kp  &kp  &kp  &kp  &kp
-                                       &kp        &kp        &kp  &kp  &kp  &kp
+    &kp H  &kp LA(U)      &kp U  &kp COLON  &kp LA(W)      &kp L  &none  &none  &none  &none  &none  &none
+&kp LA(X)      &kp M  &kp LA(P)      &kp P      &kp I  &kp LA(Y)  &none  &none  &none  &none  &none  &none
+&kp LA(D)  &kp LA(J)      &kp J      &kp K  &kp LA(E)      &kp Y  &none  &none  &none  &none  &none  &none
+                                     &none      &none      &none  &none  &none  &none
             >;
         };
     };
