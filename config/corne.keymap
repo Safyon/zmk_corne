@@ -44,7 +44,7 @@
 
         Symbols_Directions {
             bindings = <
-&none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp BACKSLASH         &kp SLASH   &kp PIPE  &kp C_VOL_UP    &kp C_PREVIOUS    &kp UP_ARROW         &kp C_NEXT  &kp C_PLAY_PAUSE        &kp PAGE_UP
+&none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp BACKSLASH         &kp SLASH   &kp PIPE  &kp C_VOL_UP    &kp C_PREVIOUS    &kp UP_ARROW         &kp C_NEXT  &kp C_PLAY_PAUSE    &kp LA(PAGE_UP)
 &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp QUESTION   &kp EXCLAMATION   &kp HASH  &kp C_VOL_DN    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW   &kp RIGHT_SHIFT  &kp LA(PAGE_DOWN)
 &none              &kp LBRC        &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp CARET    &kp C_MUTE  &kp LC(LG(LEFT))       &kp ENTER  &kp LC(LG(RIGHT))       &kp LG(TAB)              &none
                                                         &kp TILDE            &kp AT  &kp GRAVE        &trans             &none       &kp ENTER
