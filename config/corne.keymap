@@ -62,10 +62,10 @@
 
         Gaming {
             bindings = <
-     &kp ESC           &kp T  &kp Q  &kp W      &kp E  &kp R  &none  &none  &none  &none  &none  &kp LC(LS(H))
-     &kp TAB  &kp LEFT_SHIFT  &kp A  &kp S      &kp D  &kp F  &none  &to 0  &none  &none  &none          &none
-&kp LEFT_ALT           &kp B  &kp Z  &kp X      &kp C  &kp V  &none  &none  &none  &none  &none          &none
-                                     &kp O  &kp SPACE  &kp L  &none  &none  &none
+     &kp ESC           &kp T  &kp Q  &kp W      &kp E  &kp R  &none  &none     &kp F1   &kp F2   &kp F3   &kp F4
+     &kp TAB  &kp LEFT_SHIFT  &kp A  &kp S      &kp D  &kp F  &none  &to 0     &kp F5   &kp F6   &kp F7   &kp F8
+&kp LEFT_ALT           &kp B  &kp Z  &kp X      &kp C  &kp V  &none  &none     &kp F9  &kp F10  &kp F11  &kp F12
+                                     &kp O  &kp SPACE  &kp L  &none  &none  &kp ENTER
             >;
         };
 
