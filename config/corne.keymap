@@ -22,7 +22,7 @@
             bindings = <
 &kp ESC       &kp J      &kp U      &kp O             &kp F  &kp X       &kp P  &kp C      &kp L      &kp M  &kp V  &kp LEFT_SHIFT
 &kp TAB       &kp I      &kp E      &kp A             &kp N  &kp PERIOD  &kp Y  &kp D      &kp R      &kp T  &kp S  &kp RIGHT_WIN
-&kp LEFT_ALT  &kp COMMA  &kp UNDER  &kp SINGLE_QUOTE  &kp H  &kp B       &kp W  &kp G      &kp Q      &kp K  &kp Z  &to 4
+&kp LEFT_ALT  &kp COMMA  &kp UNDER  &kp SINGLE_QUOTE  &kp H  &kp B       &kp W  &kp G      &kp Q      &kp K  &kp Z  &to 0
                                     &kp LEFT_CONTROL  &mo 3  &mo 1       &mo 2  &kp SPACE  &kp ENTER
             >;
         };
@@ -35,9 +35,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&bt BT_CLR  &kp ESC    &kp TAB    &kp LG(R)        &kp LG(F1)         &kp LG(N)      &kp CARET   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp BSPC
-&bt BT_PRV  &kp LG(T)  &kp LG(W)  &kp LG(PAGE_UP)  &kp LG(PAGE_DOWN)  &kp LS(LG(T))  &kp PLUS    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK   &kp EQUAL
-&bt BT_NXT  &kp LG(A)  &kp LG(C)  &kp LG(X)        &kp LG(V)          &kp LG(Z)      &kp MINUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH   &kp AMPERSAND
+&bt BT_CLR  &kp ESC    &kp TAB    &kp LC(R)        &kp LC(F1)         &kp LC(N)      &kp CARET   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp BSPC
+&bt BT_PRV  &kp LC(T)  &kp LC(W)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LS(LC(T))  &kp PLUS    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK   &kp EQUAL
+&bt BT_NXT  &kp LC(A)  &kp LC(C)  &kp LC(X)        &kp LC(V)          &kp LC(Z)      &kp MINUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH   &kp AMPERSAND
                                   &kp EQUAL        &kp BACKSPACE      &trans         &kp DOLLAR  &kp NUMBER_0  &kp PERCENT
             >;
         };
@@ -57,15 +57,6 @@
 &none  &kp LS(I)  &kp LS(E)  &kp LS(A)          &kp LS(N)  &kp COLON  &kp LS(Y)          &kp LS(D)      &kp LS(R)      &kp LS(T)  &kp LS(S)  &none
 &none  &kp SEMI   &kp MINUS  &kp DOUBLE_QUOTES  &kp LS(H)  &kp LS(B)  &kp LS(W)          &kp LS(G)      &kp LS(Q)      &kp LS(K)  &kp LS(Z)  &none
                              &kp LCTRL          &none      &none      &kp LC(BACKSPACE)  &kp BACKSPACE  &kp LS(ENTER)
-            >;
-        };
-
-        Gaming {
-            bindings = <
-&kp ESC       &kp T           &kp Q  &kp W  &kp E      &kp R  &none  &none  &kp F1     &kp F2   &kp F3   &kp F4
-&kp TAB       &kp LEFT_SHIFT  &kp A  &kp S  &kp D      &kp F  &none  &to 0  &kp F5     &kp F6   &kp F7   &kp F8
-&kp LEFT_ALT  &kp B           &kp Z  &kp X  &kp C      &kp V  &none  &none  &kp F9     &kp F10  &kp F11  &kp F12
-                                     &kp O  &kp SPACE  &kp L  &none  &none  &kp ENTER
             >;
         };
     };
