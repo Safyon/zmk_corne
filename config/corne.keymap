@@ -54,7 +54,7 @@
         Upper_Case {
             bindings = <
 &none  &kp LS(J)  &kp LS(U)  &kp LS(O)          &kp LS(F)  &kp LS(X)  &kp LS(P)          &kp LS(C)      &kp LS(L)      &kp LS(M)  &kp LS(V)  &none
-&none  &kp LS(I)  &kp LS(E)  &kp LS(A)          &kp LS(N)  &kp COLON  &kp LS(Y)          &kp LS(D)      &kp LS(R)      &kp LS(T)  &kp LS(S)  &none
+&kp B  &kp LS(I)  &kp LS(E)  &kp LS(A)          &kp LS(N)  &kp COLON  &kp LS(Y)          &kp LS(D)      &kp LS(R)      &kp LS(T)  &kp LS(S)  &none
 &none  &kp SEMI   &kp MINUS  &kp DOUBLE_QUOTES  &kp LS(H)  &kp LS(B)  &kp LS(W)          &kp LS(G)      &kp LS(Q)      &kp LS(K)  &kp LS(Z)  &none
                              &kp LCTRL          &none      &none      &kp LC(BACKSPACE)  &kp BACKSPACE  &kp LS(ENTER)
             >;
